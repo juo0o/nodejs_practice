@@ -25,5 +25,8 @@ app.get('/dog', function (req, res) {
     res.send('dog')
 })
 
+app.get('/cat', function (req, res){
+    res.send('cat')
+})
 
 app.listen(3000)
